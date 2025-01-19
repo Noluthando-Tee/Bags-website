@@ -1,0 +1,274 @@
+.body-container{
+	background-color:#ffffe6;
+	width: 98%;
+}
+.container{
+	background: #f2f2d9;
+	margin-top:10px;
+	padding-left:30px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 20%;
+}
+a{
+	text-decoration: none;
+}
+
+.nav-logo{
+display: block;
+position: relative;
+background: ;
+align-content: center;
+align-items: center;
+direction: column;
+justify-content: center;
+padding-inline: 20px;
+}
+	
+ .nav-logo img{
+	display: block;
+	position:relative;
+	align-content: center;
+	align-items: center;
+	border-radius: 80px;
+	height: 80px;
+	width: 80px;
+	direction:column;
+}
+
+.nav_list {
+	display: inline-block;
+	position:relative;
+	padding: 40px 90px;
+	font-size: 120%;
+	overflow: hidden;
+	margin-top: -98px;
+	margin-right: 10px;
+}
+
+.nav_list input{
+	padding: 10px;
+	font-size:14px;
+	border:0px solid grey;
+	width:80%;
+	background:#f1f1f1;
+}
+.nav_list button{
+	float:right;
+	width:20%;
+	padding:10px;
+	background:#f1f1f1;
+	color:black;
+	font-size:16px;
+	border: 0px solid grey;
+	border-left: none;
+	cursor: pointer;
+    font-size: 15px;	
+}
+.nav_list button:hover {
+	background: lightgreen;
+}
+.nav_list input:: after{
+	content:"";
+	clear: both;
+	display:table;
+}
+
+.nav_list mybar{
+	display:none;
+}
+.nav_list myprofile{
+	display: none;	
+}
+.nav_list mycart{
+	display: none;
+}
+.nav_list a{
+	color: blue;
+	padding: 20px;
+	font-size: 14px;
+	display: block;	
+	font-size: 18px;
+}
+.nav_list a. icon{
+	background: black;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.nav_list a:hover{
+	color: red;
+}
+
+.slideshow {
+  position: relative;
+  width: 60%;
+  height: 400px;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: auto;
+  padding: 70px;
+  top:10px;
+  background-color:#fafad5; 
+}
+
+.slideshow img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.slideshow img.active {
+  opacity: 1;
+}
+.picture{
+	display: flex;
+	position: relative;
+	float: right;
+	width: 30%;
+	height: 40%;
+	margin-right:5%;
+	margin-bottom: -500%;
+	direction: column;
+	top: -500px;
+	float: right;
+}
+.picture img{
+	width: 95%;
+	height: 220%;	
+}
+.alter-bags{
+	float: left;
+	width: 18%;
+	padding: 5px;
+	overflow: hidden;
+}
+.alter-bags img{
+	width:100%;
+	height: 50%;
+}
+.alter-bags h6 a{
+	color:red;
+	font-size:18px;
+	
+}
+.row::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.About-Us img{
+	display:inline-block;
+	position:relative;
+	direction: column;
+	float: right;
+	width:18%;
+	height:25%;
+	border-radius: 80px;
+
+}
+.About-Us{
+	display:flex;
+	flex-wrap: wrap;
+	position:relative;
+    padding-inline: 20px 40px;
+	direction: column;
+	border: none;
+	background-color: #ffb2b2;
+	box-shadow: ;
+	width:40%;
+	height:65%;
+	
+	
+}
+.About-Us p{
+	display:flex;
+	position: relative;
+	direction: column;
+	justify-content:center;
+	padding-inline: 20px;		
+}
+.payment-box{
+	display: flex;
+	position: relative;
+	direction: column;
+	background-color: #7aadad;
+	gap: 15px;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	padding-inline: 20px 40px;
+	border: 1px solid gray;
+	float: right;
+	top: -130px;
+	margin-right: 50px;
+	width: 40%;
+	height: 10%;
+}
+.payment-box button:hover {
+	background: #ccffff;
+}
+.subscribe_form{
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	margin-right: 45px;
+	top: 20px;
+	padding-right: 20px;
+	
+}
+.subscribe_form-button{
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	padding-top: 20px;
+}
+.subscribe_form-button button:hover {
+	background: #ff0000;
+}
+.footer{
+	background-color:gray;
+	color: white;
+	
+}
+.top-footer p{
+	font-size: 16px;
+	font-weight: 500;
+
+}
+.middle-footer .footer-menu{
+	display: flex;
+	justify-content: center;
+}
+.footer_menu_list{
+	list-style: none;
+}
+.footer_menu_list a{
+	text-decoration: none;
+	color: var(--text-color-second);
+	font-weight: 500;
+	margin-inline: 20px;
+}
+.footer-social_icons{
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+.bottom-footer{
+	justify-content: center;
+	font-size: 15px;
+	margin-top: 10px;
+}
